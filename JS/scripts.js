@@ -7,7 +7,6 @@ const TypeWriter = function(txtElement, words, wait=2000){
     this.type();
     this.isDeleting= false;
 };
-
 //type method
 TypeWriter.prototype.type = function() {
     const current= this.wordIndex % this.words.length;
@@ -60,7 +59,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(".col-md-4").mouseenter(function(){
         $(this).find("img").finish().animate({
-            opacity: "0.3"     
+            opacity: "0.2"     
         });
         $("#overlay1").show()
     }).mouseleave(function(){
@@ -74,7 +73,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(".col-md-4").mouseenter(function(){
         $(this).find("img").finish().animate({
-            opacity: "0.3"     
+            opacity: "0.2"     
         });
         $("#overlay2").show()
     }).mouseleave(function(){
@@ -88,7 +87,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(".col-md-4").mouseenter(function(){
         $(this).find("img").finish().animate({
-            opacity: "0.3"     
+            opacity: "0.2"     
         });
         $("#overlay3").show()
     }).mouseleave(function(){
